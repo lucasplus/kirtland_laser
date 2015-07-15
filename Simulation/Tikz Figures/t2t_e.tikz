@@ -1,0 +1,33 @@
+% This file was created by matlab2tikz v0.1.2.
+% Copyright (c) 2008--2011, Nico Schlömer <nico.schloemer@gmail.com>
+% All rights reserved.
+% 
+% The latest updates can be retrieved from
+%   http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz
+% where you can also make suggestions and rate matlab2tikz.
+% 
+\begin{tikzpicture}
+
+\begin{axis}[%
+scale only axis,
+width=\figurewidth,
+height=\figureheight,
+xmin=0, xmax=80,
+ymin=0, ymax=1,
+xlabel={$\theta (deg)$},
+ylabel={$Intensity$},
+xmajorgrids,
+ymajorgrids,
+zmajorgrids]
+\addplot [
+color=blue,
+solid,
+mark=*,
+mark options={solid}
+]
+coordinates{
+ (0,0.890155)(5,0.9458)(10,0.982775)(15,0.999149)(20,0.99496)(25,0.972107)(30,0.933944)(35,0.884679)(40,0.828752)(45,0.770307)(50,0.712841)(55,0.659046)(60,0.610803)(65,0.569291)(70,0.535146)(75,0.508631)(80,0.489791) 
+};
+
+\end{axis}
+\end{tikzpicture}
